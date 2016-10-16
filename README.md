@@ -1,2 +1,2 @@
 # random_quote_machine
-This is a random quote generator
+This is a random quote generator. Code coming soon.
