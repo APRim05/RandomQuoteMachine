@@ -1,0 +1,116 @@
+body {
+    /*border: 1px solid red;*/
+    background: url("reticular_tissue.png");
+    margin-bottom: 5px;
+}
+
+h1 {
+    /*border: 1px solid red;*/
+    font-family: 'Bungee Inline';
+    color: #2e456d;
+}
+
+h5 {
+    /*border: 1px solid red;*/
+    font-family: 'Architects Daughter';
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+}
+
+.myquote {
+    /*border: 1px solid red;*/
+    position: relative;
+    border: #2e456b;
+    border-radius: 10px;
+    background-color: #2e456d;
+    color: white;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.quote {
+    min-height: 8.5em;
+    /*border: 1px solid red;*/
+    position: relative;
+    font-family: 'Indie Flower';
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 2.3em;
+    color: white;
+}
+
+.author {
+    /*border: 1px solid red;*/
+    position: relative;
+    font-family: 'Indie Flower';
+    font-size: 24px;
+    padding-right: 20px;
+    margin-top: -20px;
+}
+
+button#newQuote {
+    /*border: 1px solid red;*/
+    position: relative;
+    margin-top: 1em;
+    border: 0;
+    outline: none;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button#tweetQuote {
+    /*border: 1px solid red;*/
+    margin-top: 1em;
+    margin-right: 1em;
+    border: 0;
+    outline: none;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    outline: none;
+    border: none;
+}
+
+.btn:focus {
+    outline: none;
+    border: none;
+}
+
+a {
+    /*border: 1px solid red;*/
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    /*border: 1px solid red;*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:link {
+    /*border: 1px solid red;*/
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+#credits {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Architects Daughter';
+    position: relative;
+    box-shadow: 5px 5px 10px #888888;
+    font-size: 12px;
+    padding: 3px 0px 3px 5px;
+    background-color: #4E8098;
+    color: white;
+}
