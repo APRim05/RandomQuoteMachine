@@ -61,7 +61,7 @@ button#newQuote {
 button#tweetQuote {
     /*border: 1px solid red;*/
     margin-top: 1em;
-    margin-right: 1em;
+    margin-right: 0.4em;
     border: 0;
     outline: none;
     padding-right: 20px;
